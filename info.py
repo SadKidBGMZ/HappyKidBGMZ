@@ -51,7 +51,12 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🏷 Title</b>: <a href={url}>{
 ☀️ Languages : <code>{languages}</code>
 👥 Cast : <code>{cast}</code>
 📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}🎛 Countries : <code>{countries}</code>Requested by : {message.from_user.mention} ")
+📆 Release Info : {release_date}
+🎛 Countries : <code>{countries}</code>
+
+Requested by : {message.from_user.mention}
+
+")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
