@@ -2,7 +2,7 @@
   <img src="assets/New Project 4 [9A088C2].png" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>SK Rajii Botz</b>
 </h1>
 
 
